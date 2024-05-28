@@ -12,3 +12,13 @@ Project is run on Docker.
 
 
 ## Project Setup
+
+```
+> git clone https://github.com/smujacic/igp.git
+
+> make build
+
+> make env
+
+> make build-db
+```
