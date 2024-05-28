@@ -10,3 +10,6 @@ stop:
 build-db:
 	docker-compose exec db bash -c 'mysql -u igp -pigp igp < /docker-entrypoint-initdb.d/init.sql'
 
+env:
+	cp .env_dev .env
+
