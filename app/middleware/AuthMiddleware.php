@@ -2,6 +2,9 @@
 namespace App\Middleware;
 
 class AuthMiddleware {
+    /**
+     * Handler
+     */
     public static function handle() {
         $headers = apache_request_headers();
         $authHeader = $headers['Authorization'] ?? '';
